@@ -1,0 +1,3 @@
+/* 80 rem equivale a 80.0rem, basta dividir qualquer valor em pixel por 10 */
+/* #Control selecionar a unidade de medida, pressionar Shift L altera todas de uma vez */
+/* Selecionar um campo segurar ALT depois clicar em outro, cria 2 cursores */
