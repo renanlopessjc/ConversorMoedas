@@ -8,6 +8,7 @@
 
 
 :root {
+  --text-color: #0F172A;
   /* Estrategia para manter o layoult flexível */
   font-size: 62.5%;
   font-family: "Inter", sans-serif;
@@ -23,6 +24,7 @@ body {
   height: 100vh;
   display: grid;
   place-content: center;
+  color: var(--text-color)
 }
 
 main{
@@ -33,6 +35,36 @@ main{
   background: #FFFFFF;
   box-shadow: 0rem 0.4rem 3.2rem rgba(15,23,42,0.15);
   border-radius: 1.6rem;
+  display: grid;
+  gap: 6.4rem;
 }
 
+section h2{
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+
+.conversor .wrapper{
+  margin-top: 1.6rem;
+  display:flex;
+  /* Gap- espaço entre os filhos */
+  gap: 1.6rem;
+}
+
+.money-wrapper{
+  background-color: white;
+  outline:.1rem solid #94a3b8;
+
+  width: 27rem;
+  padding:1.6rem;
+  border-radius: .8rem;
+}
+
+.cambio .wrapper{
+  margin-top:2.4rem;
+  width: 59.2rem;
+  height: 35.6rem;
+
+  border:.4rem solid red;
+}
 
