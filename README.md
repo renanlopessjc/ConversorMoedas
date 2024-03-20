@@ -1,7 +1,7 @@
 <h1 align="center"> Conversor de moedas </h1>
 
 <p align="center">
-<a href="https://www.rocketseat.com.br/boracodar">#boraCodar</a> são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+<a href="https://www.rocketseat.com.br/boracodar">#boraCodar</a> são desafios semanais, promovidos pela Rocketseat para ensino de tecnologias WEB. <br/>
 </p>
 
 <p align="center">
