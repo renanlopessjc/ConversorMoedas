@@ -50,6 +50,7 @@ section h2{
   display:flex;
   /* Gap- espaço entre os filhos */
   gap: 1.6rem;
+  align-items: center;
 }
 
 .money-wrapper{
@@ -105,6 +106,8 @@ section h2{
 }
 
 .dropdown:hover{
+  /* Faz a altura se encaixar com o conteúdo */
+  height: fit-content;
   overflow: initial;
 }
 
@@ -137,6 +140,7 @@ section h2{
   
 }
 
+li:hover, 
 .selected:hover {
   background-color: var(--bg-hover);
 }
@@ -160,14 +164,22 @@ ul {
   max-height: 17rem;
 
   margin-top: .8rem;
+
+  overflow-y: scroll;
+}
+
+li {
+  padding: 1.2rem 1.6rem;
+
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+
 }
 
 
 .cambio .wrapper{
   margin-top:2.4rem;
-  width: 59.2rem;
-  height: 35.6rem;
-
-  border:.4rem solid red;
+  
 }
 
